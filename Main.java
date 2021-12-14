@@ -30,7 +30,7 @@ public class Main {
         }
     }
     public static void main(String[] args) throws IOException {
-        String csvFilePath = "D:\\Бурляева\\Универ\\3 курс 5 семестр\\Жаба\\(Л4) Считывание из файла в коллекцию\\foreign_names.csv";
+        String csvFilePath = "D:\\Соня\\Универ\\3 курс\\Java\\(Л4) Считывание из файла в коллекцию\\foreign_names.csv";
         String separator = ";";
         ArrayList<Person> office = new ArrayList<>();
         try (InputStream in = Main.class.getClassLoader().getResourceAsStream(csvFilePath)) {
